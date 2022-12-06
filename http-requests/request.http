@@ -1,0 +1,15 @@
+
+GET http://localhost:8080/vehicle
+
+
+###
+
+POST http://localhost:8080/vehicle
+Content-Type: application/json
+
+{
+  "brand": "audi",
+  "color": "GREEN",
+  "firstRegistration": "2019-09-13",
+  "model": "a4"
+}
