@@ -1,9 +1,8 @@
 package at.htl.entity;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import com.fasterxml.jackson.annotation.JsonProperty;
+
+import javax.persistence.*;
 import java.time.LocalDate;
 
 @Entity
@@ -12,9 +11,16 @@ public class Vehicle {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String brand;
+    @Enumerated(EnumType.STRING)
     private MyColor color;
+    @Column(name = "FIRST_REGISTRATION")
+    @JsonProperty("first-registration")
     private LocalDate firstRegistration;
     private String model;
+    @Column(name = "IMAGE_NAME")
+    @JsonProperty("image-name")
+    private String imageName;
+    @Transient
     private byte[] image;
 
 
@@ -66,6 +72,14 @@ public class Vehicle {
 
     public void setModel(String model) {
         this.model = model;
+    }
+
+    public String getImageName() {
+        return imageName;
+    }
+
+    public void setImageName(String imageName) {
+        this.imageName = imageName;
     }
 
     public byte[] getImage() {

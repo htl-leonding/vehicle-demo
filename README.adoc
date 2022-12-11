@@ -1,0 +1,11 @@
+= vehicle-demo (qute)
+
+== Sources
+
+* https://quarkus.io/guides/qute-reference[Qute Reference]
+* https://www.youtube.com/watch?v=T3_-I_mPF-U[How To Display Selected HTML Table Row Values Into Input Text Using JavaScript]
+* https://www.javascript-coder.com/javascript-form/getelementbyid-form/[How to use getElementById to get the elements in a form]
+
+
+
+
