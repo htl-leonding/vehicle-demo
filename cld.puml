@@ -1,0 +1,10 @@
+@startuml
+left to right direction
+
+class Invoice
+class Product
+class Item
+
+Invoice "*" -- "*" Product
+(Invoice,Product) .. Item
+@enduml
