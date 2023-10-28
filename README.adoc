@@ -5,3 +5,7 @@
 // image::https://www.plantuml.com/plantuml/png/SoWkIImgAStDuSf9JIjHACbNACfCpoXHICaiIaqkoSpFu-9ApaaiBbRmp2lBpqnEXV82Yl9JIfDBO78bgRbSN50L2afQIWgwkY0Aham3AgS35T1KqDE3w798pKi1sWu0[]
 
 image::http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/htl-leonding/vehicle-demo/main/cld.puml[]
+
+https://stuetzpunkt.wordpress.com/2023/10/28/how-to-render-plantuml-in-github-in-a-asciidoctor-file/
+
+image::http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/htl-leonding/vehicle-demo/main/cld.puml[]
